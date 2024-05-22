@@ -16,10 +16,13 @@
   ## Motor:
   Motores DC (corrente contínua) e motores de passo são comumente utilizados em projetos de eletrônica e robótica. Quando combinados com controladores como o Arduino Nano e drivers como o L293D, eles permitem a construção de sistemas de movimento precisos e eficientes.
 
+### 
+
   ![image](https://github.com/GabrielCardoso18/Arduino_PWM_Controller/assets/126261772/37df7d04-ae7e-4dc5-87f0-050c0c82d77d)
 
 ## Código Utilizado:
-´´´ C++
+``` C++
+
 #include <Arduino.h>
 const int button = 4;
 
@@ -50,7 +53,7 @@ void loop() {
   }
   lastButtonState = buttonState;
 }
-´´´
+```
 
 
   
