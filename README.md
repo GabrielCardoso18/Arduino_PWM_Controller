@@ -19,7 +19,7 @@
   ![image](https://github.com/GabrielCardoso18/Arduino_PWM_Controller/assets/126261772/37df7d04-ae7e-4dc5-87f0-050c0c82d77d)
 
 ## Código Utilizado:
-'''C++
+´´´ C++
 #include <Arduino.h>
 const int button = 4;
 
@@ -50,6 +50,8 @@ void loop() {
   }
   lastButtonState = buttonState;
 }
-'''
+´´´
+
+
   
 
