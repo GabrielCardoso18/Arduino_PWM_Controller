@@ -54,7 +54,8 @@ void loop() {
   lastButtonState = buttonState;
 }
 ```
-
+## Funcionamento do projeto:
+ O projeto visa ajustar a frequência do motor de acordo com a ativação de um botão, alterando os valores da frequência e suas aplicações. Utilizamos um oscilômetro para medir as variações de frequência e, com isso, modificar as velocidades do motor.
 
   
 
